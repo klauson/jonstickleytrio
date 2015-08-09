@@ -7,7 +7,7 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-    <div class="services m-scene" id="main">
+    <div class="index m-scene" id="main">
   <div class="m-landing-layout scene_element scene_element--fadein">
 
 
@@ -20,7 +20,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jon Stickley Trio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,7 +30,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#tour">Tour</a>
+                        <a class="page-scroll" href="index.php">Tour</a>
                     </li>
                     <li>
                         <a href="blog.php">Blog</a>
@@ -53,11 +52,11 @@
     </nav>
 
 
-    
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
+                    <h1>Blog Page</h1>
                     <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
                     <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
                 </div>
@@ -66,11 +65,11 @@
     </section>
 
     <!-- About Section -->
-    <section id="tour" class="tour-section">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Tour Section</h1>
+                    <h1>Contact Section</h1>
                 </div>
             </div>
         </div>
