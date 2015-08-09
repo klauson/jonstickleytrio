@@ -4995,7 +4995,7 @@ span.badge {
       .row .col.offset-l12 {
         margin-left: 100%; } }
 
-nav {
+/*nav {
   color: #fff;
   background-color: #121826;
   width: 100%;
@@ -5105,7 +5105,7 @@ nav {
     height: 64px;
     line-height: 64px; }
   .navbar-fixed {
-    height: 64px; } }
+    height: 64px; } }*/
 
 @font-face {
   font-family: "Roboto";

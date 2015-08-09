@@ -11,7 +11,48 @@
   <div class="m-landing-layout scene_element scene_element--fadein">
 
     <header>
-        <h1>Home Page</h1>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="logo">
+                    <img src="assets/img/logosart.png" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <ul id="menu" >
+                    <li class="cl-effect-7"><a href="#">Tour</a></li>
+                    <li class="cl-effect-7"><a href="#">Blog</a></li>
+                    <li class="cl-effect-7"><a href="#">Band</a></li>
+                    <li class="cl-effect-7"><a href="#">Media</a></li>
+                    <li class="cl-effect-7"><a href="#">Merch</a></li>
+                    <li class="cl-effect-7"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="corners">
+              <div class="top left"><img src="assets/img/bordertop-left.png" alt=""></div>
+              <div class="top right"><img src="assets/img/bordertop-right.png" alt=""></div>
+              <div class="bottom right"><img src="assets/img/borderbot-right.png" alt=""></div>
+              <div class="bottom left"><img src="assets/img/borderbot-left.png" alt=""></div>
+                <div class="slide">
+                        <div class="vendor">
+                            <iframe src="http://player.vimeo.com/video/25708134?title=0&byline=0
+                            &portrait=0" width="100%" height="400" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
     </header>
 
     </section>

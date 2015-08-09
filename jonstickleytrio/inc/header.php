@@ -16,8 +16,12 @@
   <link rel="stylesheet" href="assets/css/materialize.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/player/audioplayerengine/initaudioplayer-1.css">
+  <script src="assets/font/depress/specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="assets/font/depress/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="assets/font/depress/stylesheet.css" type="text/css" charset="utf-8" />
 
   <link href="assets/sass/main.css" rel="stylesheet" type="text/css" />
+
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
