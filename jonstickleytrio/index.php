@@ -10,76 +10,48 @@
     <div class="services m-scene" id="main">
   <div class="m-landing-layout scene_element scene_element--fadein">
 
+    <header>
+        <h1>Home Page</h1>
+    </header>
 
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jon Stickley Trio</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#tour">Tour</a>
-                    </li>
-                    <li>
-                        <a href="blog.php">Blog</a>
-                    </li>
-                    <li>
-                        <a href="Band.php">Band Bio</a>
-                    </li>
-                    <li>
-                        <a href="Media.php">Media</a>
-                    </li>
-                    <li>
-                        <a href="shop.php">Shop</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-
-    
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- About Section -->
     <section id="tour" class="tour-section">
-        <div class="container">
-            <div class="row">
+
+            <div class="row tour-content">
                 <div class="col-lg-12">
                     <h1>Tour Section</h1>
+                    <p>
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+
+                        
+                    </p>
                 </div>
-            </div>
         </div>
 
 
-          </div>
+
+            </div>
+        
         </div> <!-- /#main -->
 
     </section>
+
+            <footer class="page-footer">
+
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+
+
+        </footer>
 
 
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg">
 <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script>
@@ -13,7 +13,7 @@
   <meta name="description" content="Jon Stickley Trio Band Website">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
-<!--   <link rel="stylesheet" href="assets/css/materialize.css"> -->
+  <link rel="stylesheet" href="assets/css/materialize.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/player/audioplayerengine/initaudioplayer-1.css">
 
