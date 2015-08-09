@@ -1,0 +1,248 @@
+////////Global Styles/////////
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.bg {
+ background: url(../img/bg.jpg)  no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.row {
+	margin: $margin;
+	padding: $padding;
+}
+
+body {
+  	padding-top: 70px;
+	background-color: rgba(255,255,255, .3);
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #e7e7e7;
+	font-size: 1.5rem;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
+     
+header {
+	width: 100%;
+}
+
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #121826;
+}
+
+section {
+
+}
+
+#wrapper {
+	width: $width;
+	height: 3500px;
+}
+
+.main {
+
+}
+
+.content {
+
+}
+
+
+
+
+/************************************************/
+
+				CUSTOME CLASSES
+
+/************************************************/
+
+
+
+
+a {
+	text-decoration: none;
+
+	 &:hover, {
+	 	text-decoration:none;
+	 }
+}
+
+a:active {
+
+}
+
+a.active {
+
+}
+
+h1 {
+	font-size: 6em;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin: 3% 0;
+	padding: 1% 0;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 2.3em;
+	font-family: 'Abril Fatface', cursive;
+}
+
+h4 {
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+
+
+
+/************************************************/
+
+				CUSTOME CLASSES
+
+/************************************************/
+
+
+
+
+.imageClass{
+	width: 100%;
+	margin: 15px auto 25px;
+	padding: 1%;
+	
+	img {
+		max-width: 100%;
+		border: .5px solid lighten(#222222, 15%);
+
+	}
+}
+
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width:45px;
+	height:45px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #e7e7e7;
+}
+ 
+.back-to-top i {
+  	font-size: 20px;
+}
+
+.space {
+	height:60px;
+	width: 100%;
+}
+
+.page-header {
+  padding-bottom: 0px;
+  margin: 10px auto 10px;
+  border-bottom: 5px solid rgba(139, 151, 159, .4);
+  font-size: 3em;
+  letter-spacing: 15px;
+  font-weight: 800;
+  opacity: .2;
+  width: 80%;
+  color:#121826;
+    text-shadow: 0 0 35px #34495E;
+  -moz-text-shadow: 0 0 35px #34495E;
+  -webkit-text-shadow: 0 0 35px #34495E;
+}
+
+.push {
+	margin: 0;
+	@media screen and (min-width: 768px) {
+		margin:0 0 0 5%;
+	}
+}
+
+.fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+ 
+.fade:hover, .fade:focus, .fade:active {
+  background-color: rgba(52, 73, 94, .1);
+  color: 34495E;
+}
+
+
+
+
+/************************************************/
+
+				CUSTOME CLASSES
+
+/************************************************/
+
+
+
+
+li.active {
+
+}
+
+li:hover {
+
+}
+
+li:active {
+
+}
+
+ul {
+	padding: 0;
+}
+
+span {
+
+}
+
+i {
+
+}

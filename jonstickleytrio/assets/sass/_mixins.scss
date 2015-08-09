@@ -1,0 +1,32 @@
+////////Mixins/////////
+
+@mixin font1 {
+	font-size: $fsm;
+	font-family: $robo;
+	color: $hxone;
+}
+@mixin font2 {
+	font-size: $fmed;
+	font-family: $open;
+	color: $hxtwo;
+}
+@mixin font3 {
+	font-size: $flg;
+	font-family: $arvo;
+	color: $hxthree;
+}
+@mixin font4 {
+	font-size: $fx;
+	font-family: $flam;
+	color: $hxfour;
+}
+@mixin font5 {
+	font-size: $fmed;
+	font-family: $rale;
+	color: $hxfive;
+}
+@mixin font6 {
+	font-size: $fxxx;
+	font-family: $ubnt;
+	color: $hxsix;
+}

@@ -1,0 +1,88 @@
+
+<?php include('inc/header.php'); ?>
+<div class="index m-scene" id="main">
+
+  <div class="m-landing-layout scene_element scene_element--fadein">
+  	<div class="m-header">
+  		<div class="slider">
+          <ul class="slides z-depth-4">
+            <li>
+              <img src="assets/img/cora5.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/cora6.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/cora4.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/cora3.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+  	</div>
+  	<div class="m-page">
+      <div class="m-segment">
+        <div class="m-container">
+          <div><img class="materialboxed " width="270" src="assets/img/cora.jpg"></div>
+          <div><img class="materialboxed " width="270" src="assets/img/cora2.jpg"></div>
+          <div><img class="materialboxed " width="270" src="assets/img/cora3.jpg"></div>
+          <div><img class="materialboxed " width="270" src="assets/img/cora4.jpg"></div>
+        </div>​
+      </div>
+  		<div class="m-segment">
+  			<div class="segment_content">
+  				<h2 class="m-type-heading-1"><a href="typical-implementation.php">Add page transitions to your site</a></h2>
+    			<div id="amazingaudioplayer-1" style="display:block;position:relative;width:300px;height:164px;margin:0px auto 0px;">
+            <ul class="amazingaudioplayer-audios" style="display:none;">
+                <li data-artist="Celtic Woman" data-title="Celtic Wonder-The Maid that Sold Her" data-album="" data-info="" data-image="" data-duration="161">
+                    <div class="amazingaudioplayer-source" data-src="assets/player/audios/Celtic Wonder-The Maid that Sold Her.MP3" data-type="audio/mpeg" />
+                </li>
+                <li data-artist="Birdy" data-title="Skinny Love" data-album="Birdy" data-info="" data-image="" data-duration="203">
+                    <div class="amazingaudioplayer-source" data-src="assets/player/audios/02 Skinny Love.mp3" data-type="audio/mpeg" />
+                </li>
+            </ul>
+            <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="jquery audio player">html5 mp3 player</a></div>
+          </div>
+  			</div>
+  		</div>
+  		<div class="m-segment">
+  			<div class="segment_content">
+  				<h2 class="m-type-heading-1"><a href="advanced-implementation.php">Shoot your site's performance</a></h2>
+  				<p class="segment_description">A demo that delves into how we can use smoothState.js to improve the performance of our site. </p>
+  			</div>
+  		</div>
+  		<div class="m-footer m-segment">
+  			<div class="segment_content">
+  				Created by <a href="http://miguel-perez.com/">Miguel Ángel Pérez</a> and maintained by <a href="https://github.com/miguel-perez/jquery.smoothState.js/graphs/contributors">contributors</a> under the <a href="https://github.com/miguel-perez/jquery.smoothState.js/blob/master/LICENSE.md">MIT License</a>.
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+</div> <!-- /#main -->
+
+<?php include('inc/footer.php'); ?>
+
+
+
+
+
+
+
