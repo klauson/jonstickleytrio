@@ -9,7 +9,8 @@
   <script src="assets/player/audioplayerengine/amazingaudioplayer.js"></script>
   <script src="assets/js/jquery.easing.min.js"></script>
 
-  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="assets/js/vendor/jquery.fitvids.js"></script>
+   <script src="assets/js/vendor/jquery.fittext.js"></script>
 
 </body>
 </html>

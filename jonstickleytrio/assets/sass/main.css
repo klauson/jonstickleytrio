@@ -27,14 +27,21 @@ body {
 
 .intro-section {
   height: 100%;
-  text-align: center; }
+  text-align: center;
+  background: url(../img/bg_top3.png);
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .tour-section {
   height: auto;
   text-align: center; }
 
 .tour-content {
-  padding: 5%;
+  padding: 0 18%;
+  font-size: 24px; }
+
+.music {
+  padding-left: 20%;
   font-size: 24px; }
 
 #main {
@@ -42,14 +49,7 @@ body {
   height: 100%; }
 
 header {
-  width: 100%;
-  height: auto;
-  background: url(../img/bg_top3.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
-  margin-top: -50px;
-  padding: 50px 0 0; }
+  width: 100%; }
 
 body {
   display: flex;
@@ -69,7 +69,7 @@ footer {
   margin-bottom: -50px; }
   @media screen and (min-width: 790px) {
     footer {
-      height: 650px; } }
+      height: 850px; } }
 
 footer.page-footer {
   width: 100%; }
@@ -79,7 +79,10 @@ footer.page-footer .footer-copyright {
   color: rgba(255, 255, 255, 0.8); }
   @media screen and (min-width: 790px) {
     footer.page-footer .footer-copyright {
-      height: 650px; } }
+      height: 850px; } }
+
+.name, .links, .vid {
+  padding: 15px; }
 
 /************************************************/
 CUSTOME CLASSES
@@ -91,7 +94,7 @@ a {
 
 h1 {
   font-size: 6em;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'depressionist_3_revisitedRg';
   font-weight: 700;
   letter-spacing: 15px; }
 
@@ -110,8 +113,9 @@ h4 {
   font-weight: 700; }
 
 .logo {
-  width: 70%;
-  margin: 2% auto 3%; }
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0 30px; }
 
 video {
   max-width: 100%;
@@ -123,49 +127,46 @@ object {
   max-width: 100%; }
 
 .slide {
-  position: relative;
   width: 100%;
-  padding: 4%;
-  margin: 0px auto;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); }
+  padding: 1%;
+  margin: 0px auto; }
 
 .vendor {
-  position: relative;
-  padding: 2%; }
+  padding: 1%; }
 
 .corners {
   position: relative;
   width: 80%;
   /* for demo purposes */
-  padding: 10px;
-  margin: auto; }
+  margin: auto;
+  padding: 1%; }
   .corners img {
     max-width: 100%; }
 
 .top, .bottom {
   position: absolute;
-  width: 10px;
-  height: 10px; }
+  width: 129px;
+  height: 70px; }
 
 .top {
   top: 0;
-  width: 100px;
-  height: 120px; }
+  width: 129px;
+  height: 70px; }
 
 .bottom {
   bottom: 0;
-  width: 100px;
-  height: 120px; }
+  width: 129px;
+  height: 70px; }
 
 .left {
   left: 0;
-  width: 100px;
-  height: 120px; }
+  width: 129px;
+  height: 70px; }
 
 .right {
   right: 0;
-  width: 100px;
-  height: 120px; }
+  width: 129px;
+  height: 70px; }
 
 /************************************************/
 CUSTOME CLASSES
@@ -241,13 +242,13 @@ CUSTOME CLASSES
 CUSTOME CLASSES
 ul #menu {
   list-style-type: none;
-  margin: 0;
-  padding: 0; }
+  margin: 30px;
+  padding: 30px; }
 
 #menu li {
   background-color: none;
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 2%;
   border-bottom: 2px solid #942e3b; }
 
 #menu li a {
@@ -262,7 +263,7 @@ ul #menu {
   letter-spacing: 1px;
   font-weight: 400;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-  font-size: 1.35em;
+  font-size: 2.35em;
   font-family: 'depressionist_3_revisitedRg'; }
 
 #menu li a:hover,

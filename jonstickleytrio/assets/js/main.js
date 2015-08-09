@@ -61,6 +61,8 @@ var smoothStateOptions = {
 
     $(".slide").fitVids();
 
+    $("#fittext1").fitText(1.1, { minFontSize: '20px',   maxFontSize: '90px' });
+
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
