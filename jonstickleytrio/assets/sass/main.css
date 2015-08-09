@@ -7,46 +7,219 @@ html {
   width: 100%;
   height: 100%; }
 
-.bg {
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .row {
   margin: 0px;
   padding: 0px; }
 
-body {
-  padding-top: 70px;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #e7e7e7;
-  font-size: 1.5rem; }
-
-body::-webkit-scrollbar {
-  display: none; }
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column; }
-
-main {
-  flex: 1 0 auto; }
-
 header {
   width: 100%; }
 
-footer.page-footer {
-  margin-top: 20px;
-  padding-top: 20px;
-  background-color: #121826; }
+/************************************************/
+MIght Use CLASSES
+M CLASSES
+.m-container {
+  display: flex;
+  justify-content: space-between; }
 
-#wrapper {
-  width: 100%;
-  height: 3500px; }
+@media screen and (min-width: 500px) {
+  /* line 32, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  body {
+    font-size: 1em; } }
+/* line 38, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+a {
+  color: #3f51b5;
+  text-decoration: none;
+  transition: color 0.15s ease-in; }
+
+/* line 42, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+a:hover {
+  color: #1a237e; }
+
+/* line 46, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+a:active, a:focus {
+  color: #e91e63; }
+
+/* line 49, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+a:visited {
+  color: #e7e7e7; }
+
+/* line 54, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+code {
+  font-weight: bold; }
+
+/* line 62, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-type-display-1 {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 16px 0; }
+
+@media screen and (min-width: 768px) {
+  /* line 69, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-type-display-1 {
+    font-size: 4em; } }
+/* line 74, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-type-sub-heading-1 {
+  font-size: 1.13em;
+  font-weight: 400;
+  margin: 16px 0; }
+
+/* line 80, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-type-heading-1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 16px 0; }
+
+/* line 90, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-code {
+  display: block;
+  margin: 1.5em 0;
+  padding: 1em;
+  border-bottom: 1px solid #cfd8dc; }
+
+/* line 101, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-header {
+  position: relative;
+  padding: 4.25em 4.25em 2em;
+  max-width: 150em; }
+
+/* line 106, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-header .header_actions {
+  margin: 1.25em 0 0; }
+
+/* line 110, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-header .header_link {
+  margin-right: 1.25em;
+  margin-top: 4px; }
+
+@media screen and (min-width: 1024px) {
+  /* line 117, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-header {
+    padding: 8.5em 8.5em 4.25em; } }
+/* line 126, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-button {
+  display: inline-block;
+  padding: 0.5em;
+  border: 1px solid #eceff1;
+  overflow: hidden;
+  transition: background-color 0.15s ease-in; }
+
+/* line 133, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-button .txt {
+  color: #eceff1;
+  transition: color 0.15s ease-in; }
+
+/* line 138, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-button:hover {
+  background-color: #eceff1; }
+
+/* line 141, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-button:hover .ico {
+  fill: #e91e63; }
+
+/* line 144, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-button:hover .txt {
+  color: #e91e63; }
+
+/* line 155, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-page {
+  background-color: #222;
+  color: #263238; }
+
+.m-page2 {
+  background-color: #222;
+  height: 1220px;
+  color: #263238; }
+
+/* line 165, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-segment {
+  padding: 1em 4.25em;
+  border-bottom: 1px solid #cfd8dc; }
+
+/* line 169, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-segment .segment_content {
+  margin: 16px 0;
+  max-width: 40em; }
+
+/* line 174, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-segment .segment_description {
+  margin: 16px 0; }
+
+@media screen and (min-width: 1024px) {
+  /* line 180, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-segment {
+    padding: 2.25em 8.5em; } }
+/* line 190, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-aside-segment {
+  display: none;
+  padding: 2.25em;
+  border-bottom: 1px solid #f8bbd0; }
+
+/* line 194, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-aside-segment .segment_description {
+  margin: 16px 0; }
+
+/* line 205, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-landing-layout .m-type-sub-heading-1 {
+  color: #f8bbd0; }
+
+/* line 216, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-detail-layout .m-aside .aside_title {
+  margin: 16px;
+  font-weight: normal; }
+
+@media screen and (min-width: 768px) {
+  /* line 224, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-detail-layout {
+    padding-left: 270px; }
+
+  /* line 226, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-detail-layout .m-aside {
+    position: absolute;
+    left: 0;
+    width: 270px; }
+
+  /* line 230, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-detail-layout .m-aside .aside_title {
+    position: fixed; }
+
+  /* line 233, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+  .m-detail-layout .m-aside .m-button {
+    display: block; } }
+/* line 247, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-right-panel .m-header,
+.m-right-panel .m-segment .segment_content {
+  max-width: 43em; }
+
+/* line 251, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-right-panel .right-panel_top {
+  border-bottom: 1px solid #cfd8dc; }
+
+/* line 260, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-breadcrumb .breadcrumb_link {
+  position: relative;
+  top: -2px;
+  font-size: 0.75em; }
+
+/* line 265, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-breadcrumb .m-type-display-1 {
+  margin-top: 0; }
+
+/* line 273, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-footer {
+  background-color: #cfd8dc; }
+
+/* line 282, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-image-grid {
+  overflow: hidden;
+  list-style: none;
+  padding-left: 0; }
+
+/* line 286, /Users/mperez/Sites/smoothstate/source/stylesheets/layout.css.scss */
+.m-image-grid .item {
+  display: block;
+  float: left;
+  width: 33%;
+  overflow: hidden; }
 
 /************************************************/
 CUSTOME CLASSES
@@ -152,101 +325,103 @@ CUSTOME CLASSES
 ul {
   padding: 0; }
 
+/************************************************/
+Materializer CSS
+.materialboxed {
+  cursor: zoom-in;
+  position: relative;
+  -webkit-transition: opacity .4s;
+  -moz-transition: opacity .4s;
+  -o-transition: opacity .4s;
+  -ms-transition: opacity .4s;
+  transition: opacity .4s; }
+
+.materialboxed:hover {
+  will-change: left, top, width, height; }
+
+.materialboxed:hover:not(.active) {
+  opacity: .8; }
+
+.materialboxed.active {
+  cursor: zoom-out; }
+
+#materialbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 999;
+  will-change: opacity; }
+
+.materialbox-caption {
+  position: fixed;
+  display: none;
+  color: #fff;
+  line-height: 50px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0% 15%;
+  height: 50px;
+  z-index: 1000;
+  -webkit-font-smoothing: antialiased; }
+
+/************************************************/
+Smooth Animations
+.m-scene .scene_element {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 17, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene .scene_element--fadein {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+/* line 22, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene .scene_element--fadeinup {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+/* line 27, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene .scene_element--fadeinright {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight; }
+
+/* line 32, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene .scene_element--delayed {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+/* line 38, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+/* line 43, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene.is-exiting .scene_element--delayed {
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s; }
+
+/* line 48, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene.is-exiting .scene_element--noexiting {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+@media screen and (min-width: 768px) {
+  /* line 57, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+  .m-scene .scene_element--fadeinright-wide {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight; } }
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 50px;
     line-height: 64px; } }
-nav {
-  color: #fff;
-  background-color: #121826;
-  width: 100%;
-  height: 70px;
-  line-height: 56px;
-  margin-top: 45px; }
-
-nav .button-collapse i {
-  font-size: 1.7rem;
-  height: 56px;
-  line-height: 56px;
-  position: fixed;
-  left: 93%; }
-
-nav ul a {
-  font-size: 1rem;
-  color: #fff;
-  display: block;
-  padding: 4px 75px 0;
-  font-size: 1em; }
-
-nav a {
-  text-decoration: none;
-  font-family: 'Raleway', Arial, sans-serif;
-  font-size: 1.8em; }
-  nav a:hover {
-    text-decoration: none; }
-
-nav a.dropdown-button i {
-  font-size: 1rem;
-  height: 56px;
-  line-height: 56px;
-  padding: 0 0 0 5px; }
-
-.side-nav {
-  position: fixed;
-  width: 240px;
-  left: -105%;
-  top: 0;
-  margin: 0;
-  height: 100%;
-  height: calc(100% + 60px);
-  height: -moz-calc(100%);
-  padding-bottom: 60px;
-  background-color: #121826;
-  z-index: 999;
-  overflow-y: auto;
-  will-change: left; }
-
-.side-nav a {
-  color: #759cb6;
-  display: block;
-  font-size: .8em;
-  height: 64px;
-  line-height: 64px;
-  padding: 0;
-  text-decoration: none;
-  font-family: 'Raleway', Arial, sans-serif;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease; }
-
-.mdi-navigation-menu:before {
-  content: "\f0c9"; }
-
-[class^="mdi-"], [class*="mdi-"] {
-  speak: none;
-  display: inline-block;
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0); }
-
-[class^="mdi-"], [class*="mdi-"] {
-  speak: none;
-  display: inline-block;
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0); }
-
 @font-face {
   font-family: "Material-Design-Icons";
   src: url("../font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../font/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("../font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
@@ -254,23 +429,23 @@ nav a.dropdown-button i {
   font-style: normal; }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
+  src: url("..assets/font/roboto/Roboto-Thin.woff2") format("woff2"), url("..assets/font/roboto/Roboto-Thin.woff") format("woff"), url("..assets/font/roboto/Roboto-Thin.ttf") format("truetype");
   font-weight: 200; }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
+  src: url("..assets/font/roboto/Roboto-Light.woff2") format("woff2"), url("..assets/font/roboto/Roboto-Light.woff") format("woff"), url("..assets/font/roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 300; }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Regular.woff2") format("woff2"), url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("..assets/font/roboto/Roboto-Regular.woff2") format("woff2"), url("..assets/font/roboto/Roboto-Regular.woff") format("woff"), url("..assets/font/roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: 400; }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.ttf") format("truetype");
+  src: url("..assets/font/roboto/Roboto-Medium.woff2") format("woff2"), url("..assets/font/roboto/Roboto-Medium.woff") format("woff"), url("..assets/font/roboto/Roboto-Medium.ttf") format("truetype");
   font-weight: 500; }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("..assets/font/roboto/Roboto-Bold.woff2") format("woff2"), url("..assets/font/roboto/Roboto-Bold.woff") format("woff"), url("..assets/font/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700; }
 .font1 {
   font-size: 2rem;
@@ -301,5 +476,127 @@ nav a.dropdown-button i {
   font-size: 3.5rem;
   font-family: "Ubuntu", sans-serif;
   color: #337ab7; }
+
+nav {
+  color: #fff;
+  background-color: #121826;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+
+nav .button-collapse i {
+  font-size: 2.7rem;
+  height: 56px;
+  line-height: 56px;
+  margin: 0 10px;
+  position: fixed;
+  right: 0;
+  top: 2; }
+
+.side-nav {
+  position: fixed;
+  width: 240px;
+  left: -105%;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  height: calc(100% + 60px);
+  height: -moz-calc(100%);
+  padding-bottom: 60px;
+  background-color: #121826;
+  z-index: 999;
+  overflow-y: auto;
+  will-change: left; }
+
+.side-nav a {
+  color: #759cb6;
+  display: block;
+  font-size: 1.6em;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 15px;
+  text-decoration: none;
+  font-family: 'Raleway', Arial, sans-serif;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.side-nav li {
+  background-color: transparent;
+  border: 0;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease; }
+
+.side-nav .collapsible li {
+  background-color: transparent;
+  border: 0;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease; }
+
+.side-nav .collapsible-body li {
+  background-color: transparent;
+  border: 0;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease; }
+
+.side-nav .collapsible-header li {
+  background-color: transparent;
+  border: 0;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease; }
+
+.side-nav a:hover {
+  text-decoration: none;
+  color: #e7e7e7;
+  border-left: 5px solid #8b979f; }
+
+.side-nav li:hover {
+  background-color: transparent; }
+
+.side-nav .collapsible li:hover {
+  background-color: transparent; }
+
+.side-nav .collapsible-body li:hover {
+  background-color: transparent; }
+
+.side-nav .collapsible-header li:hover {
+  background-color: transparent; }
+
+.side-nav a:active {
+  text-decoration: none;
+  color: #e7e7e7; }
+
+.side-nav li:active {
+  background-color: transparent;
+  border-left: 5px solid #8b979f; }
+
+.side-nav .collapsible li:active {
+  background-color: transparent;
+  border-left: 5px solid #8b979f; }
+
+.side-nav .collapsible-body li:active {
+  background-color: transparent;
+  border-left: 5px solid #8b979f; }
+
+.side-nav .collapsible-header li:active {
+  background-color: transparent;
+  border-left: 5px solid #8b979f; }
+
+.side-nav a.active {
+  background-color: transparent;
+  border-left: 5px solid #8b979f; }
+
+.side-nav .collapsible-body {
+  border: 0;
+  background-color: #22303d; }
 
 /*# sourceMappingURL=main.css.map */
